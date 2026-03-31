@@ -1,0 +1,3 @@
+[submodule "Demon Lord Roguelike/Assets/FrameWork"]
+	path = Demon Lord Roguelike/Assets/FrameWork
+	url = https://github.com/wobushiren79/UnityFrameWork.git
