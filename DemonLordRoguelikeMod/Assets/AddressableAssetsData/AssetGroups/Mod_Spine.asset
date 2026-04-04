@@ -15,8 +15,18 @@ MonoBehaviour:
   m_GroupName: Mod_Spine
   m_GUID: 6ff3027acb5f997458ca33f70e46f321
   m_SerializeEntries:
+  - m_GUID: 6f731d52abda13f42be8172d6fcd676b
+    m_Address: Assets/ModResource/Spine/AeonsEcho/51208/Avator/51208_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 705d65ff0557dba448d8d2720dbd8d9d
     m_Address: Assets/ModResource/Spine/Other/Amelia/Amelia_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb53e166a1514a6419c2de613fcf507b
+    m_Address: Assets/ModResource/Spine/AeonsEcho/51208/Chess/51208_SkeletonData.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
