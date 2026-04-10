@@ -15,13 +15,523 @@ MonoBehaviour:
   m_GroupName: Mod_Spine
   m_GUID: 6ff3027acb5f997458ca33f70e46f321
   m_SerializeEntries:
+  - m_GUID: 008c5e103f20d6e4583f16ebcc08274b
+    m_Address: Dunniang_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a9a600c630b3c042ab5e7e2d5f398fd
+    m_Address: Guanxingzhe_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0aeb8dce1c7047947a7e4dff03af617b
+    m_Address: tianma_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0df6446a827edd345938d4394b06dc12
+    m_Address: Asitelinna_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fb8178982a5de64a89527c23e1c92b4
+    m_Address: Sonia_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ff729d0567113a48830574c39101ea1
+    m_Address: Safeierde_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1157cf25e5a3cc14ab317f994148d7a8
+    m_Address: Nidiya_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12843e81b248ecd48ad61e69efc1017b
+    m_Address: Leiya_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ed1f111ddb56642aa79bc94bffd555
+    m_Address: Mia_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1745a5dcdd6a14044b026238c4583adc
+    m_Address: Rosa_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 185209e6c8fea234fa0d4e47b8c41949
+    m_Address: Safeierde_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18666e84db6f3884ea955b89be7fdbeb
+    m_Address: Gelinsipan_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1917b83d9229801468ca7f15c40c55dc
+    m_Address: guanchazhe_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b16303f8b0e67c4ba56a1bd712d9a65
+    m_Address: Meltina_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f4843f2a954ea34396610893b093f84
+    m_Address: Dunniang_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 249c4188577427e4cbdea466ab45c6c4
+    m_Address: Eris_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b0aced19a5bd1c4cac6e39c59f59aca
+    m_Address: Leiya_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3202706a826d6af4c9a4932f47647a43
+    m_Address: Luca_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 329cbbb740b6e734682f540c01d392e6
+    m_Address: Shizhongxiaojie_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35d3d86e1b4c86e4fa59212924a8ae86
+    m_Address: Nefer_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ad821e53be32ba4ba56187443bbfe29
+    m_Address: Feizhalixiu_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bc33863f5d2c6d44a80ba3c37126b91
+    m_Address: Hinagiku_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dfd1a5654b53c042962a68f9c1d9766
+    m_Address: Luoluo_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 402b9ed5d4059c74cb962a8519501ec1
+    m_Address: Renyu_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41f3d5959505fa5438aa6844c3603a42
+    m_Address: Saila_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e32b9e3d15c764bb376d836bf47d92
+    m_Address: Heshanyang_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49d4b95db57cdee46a1793f4a5704274
+    m_Address: Sonia_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bde5924e7db02245a9cd00a199181ec
+    m_Address: Kuluoxier_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5108c696b2025aa40b60ecc30d4993a1
+    m_Address: Feizhalixiu_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51a486b9b28a64c4ebe2b810d3c37d46
+    m_Address: Yury_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52e4d3edf46bbee4db08e5b796b05622
+    m_Address: Yury_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5473670f610ccd74c854d7a7d7fc15b4
+    m_Address: Sister_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f90a7d2f0149d43a28489a8c4fdc76
+    m_Address: Bunny_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bb9d193e25101c4f9ef0bdc29588cde
+    m_Address: Mia_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f530b47eedea542a917e7b3d4d678e
+    m_Address: Kuluoxier_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67936a6cee0d385428c6dcc4b485ceef
+    m_Address: Eris_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a9193e7c276d764185aa96417b54b67
+    m_Address: Meltina_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 705d65ff0557dba448d8d2720dbd8d9d
-    m_Address: Assets/ModResource/Spine/Other/Amelia/Amelia_SkeletonData.asset
+    m_Address: Amelia_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70faf7b6efd10c642b786919f22a3060
+    m_Address: Misha_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75953890f1166904597d2115c27b8611
+    m_Address: Hekatiya_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 759c912bd11df6240b6a835a1118f768
+    m_Address: Bunny_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77314e97f0b3efa41878bbbf0470b3df
+    m_Address: Suyite_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78038a1d78620c44fbd017382c17ee0d
+    m_Address: Liselotte_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79144bfb899322b4ca083b201fc71738
+    m_Address: Luca_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a386067d1d4db645956ccc4ec91d739
+    m_Address: Nidiya_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cded92d2924291419fa13f6c21b1f16
+    m_Address: Heishanyang_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e350ecb8a007b14e98e306ac68aaab8
+    m_Address: Molasuna_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f48a3f0c2202144b9070f3aec3e053d
+    m_Address: Kaola_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8274fd44e422d7c45b57b607d00b79da
+    m_Address: GuideFairyTio_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85f4b00a973c2e94abb1cade90648158
+    m_Address: Kaola_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86aa31b920f900a4394af79b4669e314
+    m_Address: Bandelu_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86e29c0a900017641aca0aa96dff858a
+    m_Address: Matoi_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8806726e96b3b6f49aedaf74ac5a96a7
+    m_Address: Luoluo_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892f4c30a5e7a4044aa005594478e723
+    m_Address: Geliya_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 897439d4226aadd42acfba11d57f3577
+    m_Address: Hinagiku_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8eadc35dd5abd634994214276397a3b6
+    m_Address: Bandelu_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fdec6707ab152e4e88ece5078846ed3
+    m_Address: luoluonew_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 923c85e4a0094b941af1767fc6b6937f
+    m_Address: Sarah_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96e214ab2f19c7c4b9f2de77505ca70e
+    m_Address: Liselotte_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9815859782109d14e9d2424776b16762
+    m_Address: Setsuna_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bedd90937c67cc4c8c8a5492888a903
+    m_Address: Saila_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c1670c13fd5a254fb2eef41815ef9b3
+    m_Address: Kuluoxierback_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cc454f48e362cf4badda85c89d8a3da
+    m_Address: Heitamoning_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f35fa3cf25b1804dabb8d4db559d1cb
+    m_Address: Geliya_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0ffe11ef31ede84295da76cfcb237c8
+    m_Address: Luna_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2302cee83991fa4da4aa46dcd381b40
+    m_Address: Shizhongxiaojie_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7749afa486f117448ba46a03be4bbcc
+    m_Address: Mubeiling_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab36ea762fb0f374b8d063aeaeac7038
+    m_Address: Aoliweiya_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ade9a990d67150e4c932f4cbfe762210
+    m_Address: Lena_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adfead4da411dbc4787ce593b11ccd48
+    m_Address: Fusan_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae1f7ec2d5fe0834490a3d7710bb3f2f
+    m_Address: Anniboni_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae73ea5d13bfc664c9db0abed091c1cc
+    m_Address: Fulan_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af0e1cd10945d944c95da421adc92d4e
+    m_Address: Sarah_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b047c9a06a7f5154e86135c6f2fb54be
+    m_Address: Gelinsipan_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b44d6e3ee35ed5f4ea4166d7eb97a422
+    m_Address: Molasuna_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b577a1ad5fcaa454daf59c4436485970
+    m_Address: Kutakati_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6943cb266ac0a742bb9f1dc4db1cfff
+    m_Address: Sion_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b750512e23bb834428d47340c7cb1b85
+    m_Address: Matoi_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b88660fb290836a449233c53b27935aa
+    m_Address: Asitelinna_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1496ea8079c24c4292c15c33cf0e883
+    m_Address: Youmingyu_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c16de3e35bf279b4093b1e45d07f1742
+    m_Address: Emma_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4d459b35722f8146a77ad7ac12fc18e
+    m_Address: Rosa_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9d4527db37677d4594839b19dc2d54a
+    m_Address: Misha_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cae74b14bacdd1644945f3531e03e5e1
+    m_Address: Eleamor_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0ed7c724eb28944e9178d3643754c61
+    m_Address: Heitamoning_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d26e8fb0e29c25740a0e49dd6df69b54
+    m_Address: Luna_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4651dc181438464393557b2ea4f025b
+    m_Address: Reika_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8f61a28243b27c4cb41a5fbdf60df0c
+    m_Address: Aoliweiya_ChongChong_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dafb566a82344fc4a95566863ec6394d
+    m_Address: Suyite_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df230da50e242764ab3c3399f0a34ae1
+    m_Address: Luna_2_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e006c15648e976949b11a2cc0aabfde1
+    m_Address: Fulan_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2b5774ce55ae7e499c8c419f6501f7b
+    m_Address: Aoliweiya_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f64b8dac43c6e4b85adc268106c259
+    m_Address: Reika_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3bc6e51e9fb17240bed39a9e463170a
+    m_Address: Panduola_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5c2ce2334a1b2048899b9c7a1ee9170
+    m_Address: Baolilong_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ead2eaee0932e75448b431c6c39a2d3d
+    m_Address: Eleamor_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc584869e7f4744aa4b73b13ad684c8
+    m_Address: Nefer_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecbcb21c29052354582694df1e7aff17
+    m_Address: Emma_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef29ec01fa133a943a909daeee6f1c72
+    m_Address: Lena_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efff10a3ff5f95b4cb4b733c7f8d6ec8
+    m_Address: Sion_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0eb9016ff136d14499ed7ad77a86c45
+    m_Address: Hekatiya_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f77c0e2e60b37f048b7d54d669c2277d
+    m_Address: Kutakati_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc7c8a641de5a1f4b9c14f07090b1998
+    m_Address: Luna_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff1a615b97aa705409ceb46782f2663f
-    m_Address: Assets/ModResource/Spine/Other/Amelia/Amelia_Avator_SkeletonData.asset
+    m_Address: Amelia_Avator_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
