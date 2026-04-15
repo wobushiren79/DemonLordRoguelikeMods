@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Mode_AeonsEcho
+  m_Name: Mod_AeonsEcho
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
-  m_GroupName: Mode_AeonsEcho
+  m_GroupName: Mod_AeonsEcho
   m_GUID: d03333f1cd84f494cb411089fb6b5889
   m_SerializeEntries:
   - m_GUID: 01be19146a657864597add667971eebe
@@ -207,11 +207,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c775a677101174489cab39be61ff1e2
     m_Address: 1104_Chess_s02_SkeletonData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1d35576710c7eff449a84748801acdb0
-    m_Address: 4003_Avator_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -467,11 +462,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 330215132d493ee4b8494401e7b31362
     m_Address: 8402_Chess_SkeletonData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 33304450f5bb4de4a9ec5a2b06a308a3
-    m_Address: 4002_Avator_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -962,11 +952,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e5da395232fbaa4a844ede1922f9ffd
     m_Address: 1309_Chess_s01_SkeletonData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6ee0c399091b57543a7682e20ce80025
-    m_Address: 4001_Avator_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
