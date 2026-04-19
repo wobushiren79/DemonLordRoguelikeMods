@@ -15,3 +15,5 @@ MonoBehaviour:
   directoryConfigs:
   - folderPath: Assets/ModResource/Spine/BrownDust
     enableStraightAlpha: 1
+  - folderPath: Assets/ModResource/Spine/Echocalypse
+    enableStraightAlpha: 1
