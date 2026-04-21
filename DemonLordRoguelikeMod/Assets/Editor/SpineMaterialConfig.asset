@@ -17,3 +17,7 @@ MonoBehaviour:
     enableStraightAlpha: 1
   - folderPath: Assets/ModResource/Spine/Echocalypse
     enableStraightAlpha: 1
+  - folderPath: "Assets/ModResource/Spine/CrossCore\u200C"
+    enableStraightAlpha: 1
+  - folderPath: Assets/ModResource/Spine/GirlWars
+    enableStraightAlpha: 1
