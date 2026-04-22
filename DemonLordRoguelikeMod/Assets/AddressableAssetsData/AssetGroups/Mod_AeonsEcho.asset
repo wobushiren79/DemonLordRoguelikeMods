@@ -60,6 +60,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 042e88a2dc7508144bde0f0bc1c7a0a7
+    m_Address: 6023_Elf_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 042ea3717a75c7e43b9b40ee2086a448
     m_Address: 1101_Chess_s02_SkeletonData
     m_ReadOnly: 0
@@ -75,13 +80,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 054ca7ae11007f847a4dc4e9f14b9abe
+    m_Address: 6001_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05773f5c04105d74f8cca3952fd4012d
     m_Address: 1307_Chess_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 062836ebd69be524d8f45bf48a5f457e
+    m_Address: 5006_Secretary_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 06a8f20cb2dcf6b42b342140bd66a53e
     m_Address: 2007_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06ef1c779917154439050aa6421fb2f8
+    m_Address: 2001_AVG_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -92,6 +112,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 08c15a6a10a340042991c62f058075b9
     m_Address: 1307_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09723390cb90b5f44a09edf558b06aa4
+    m_Address: 6020_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -110,8 +135,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b2edce78bf8cd14ab662c1e8e044c22
+    m_Address: 1405_Avator_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0d3e788a75f1cdd449febe22322c4fa3
     m_Address: 8103_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dd6f7ec918f0be48886df0b088e5d21
+    m_Address: 5008_Secretary_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -122,6 +157,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0ee656cbb11d7f344a6b4aea6ff6bb7b
     m_Address: 8304_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ef5e47f18596dd4ea212b3ae902dfe3
+    m_Address: 6021_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -160,13 +200,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 169f5d0459c6fae4f9f45cc495cac635
+    m_Address: 1211_Chess_s03_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 171493961f8a1ee4eb0059940c298eb6
     m_Address: 1401_Chess_s02_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17ce6b293278b74499d1a280ef9d3c90
+    m_Address: 6022_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 19723598b1405424b913699f13c42ce1
     m_Address: 1114_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a0beab748c7e3f4d81184ff5d1a53e7
+    m_Address: 1302_weddingevent_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -195,8 +250,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2004d90c281c28344b09ade504dde154
+    m_Address: 851203_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20fede83ff2c58a4ab541c6d9729d463
     m_Address: 1403_Chess_s03_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2215ea115ed185a4e8d8185828b03be6
+    m_Address: 1403_weddingevent_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -255,6 +320,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2751e5572db96eb4cb7c6cf739c89e66
+    m_Address: 851201_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 27aafde99a7d2134196192940be99ddd
     m_Address: 2002_Chess_SkeletonData
     m_ReadOnly: 0
@@ -292,6 +362,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 29cf3cd9d60ce93449245c6dc40d223e
     m_Address: 1109_Avator_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29d92daf127f323488cddcb436c902eb
+    m_Address: 2001_PetBG_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -400,6 +475,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33f8b351c9bbdbb42a17476cfd9a952f
+    m_Address: 6011_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 35761fb9d21195148ad270cae0e5db70
     m_Address: 1418_Chess_s01_SkeletonData
     m_ReadOnly: 0
@@ -410,8 +490,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e7240c005ce1248a8b56bba5a4e0e5
+    m_Address: 2002_God_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3837bbe263b48c74aafbe076fbf53a36
     m_Address: 1105_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 391de6c68ea52cb4ebc23a5f90efd972
+    m_Address: 6012_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -425,6 +515,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a6ddf377766d3a40b0791e38cdd92d2
+    m_Address: 851103_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3a7098401eabff54ba1c20032e1744f0
     m_Address: 1405_Avator_lv1_SkeletonData
     m_ReadOnly: 0
@@ -432,6 +527,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b9d97443efda09418b21f9c27448fe7
     m_Address: 1214_Avator_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bac442a9069c4449a9f1c60f686af0a
+    m_Address: 5007_Secretary_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -500,8 +600,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4340e0d78a7d6d3469d137af64d37a1a
+    m_Address: 5002_Secretary_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4351574e8d1f9924192fb724360a9353
     m_Address: 1215_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 437eac51e8e3ea04abec4bb80c12f163
+    m_Address: 6010_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -532,6 +642,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 47a0a58272d2b72419659106de95591f
     m_Address: 1201_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 483fd7da338f10e428451c6d1a70fe5c
+    m_Address: 1107_Peter_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -590,6 +705,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bec5810933bd0f409fe199a43350ac5
+    m_Address: 6018_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4bff989810b82104cbc5ec099f6f89fd
     m_Address: 1403_Chess_s02_SkeletonData
     m_ReadOnly: 0
@@ -605,8 +725,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddf0a14b1230a244bbda2358d21ecef
+    m_Address: 6008_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f2628fced55e3a48a2fc2eacb52d85b
     m_Address: 51207_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe8aae29b6874e438eace474680bec3
+    m_Address: 5001_FlirtyTouch_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -620,8 +750,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50bdce38c48f3d14d9aaeee958e65598
+    m_Address: 851202_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 51a92a2862a32814b867b681812bff16
     m_Address: 1114_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51bb808a01b11e248893fb92310abf53
+    m_Address: 6016_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -632,6 +772,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 537dc32bcd3a1fc40bf2343085b809f8
     m_Address: 2006_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53c30e626d86e9742a600e08eb379b36
+    m_Address: 6009_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -652,6 +797,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 554e028773a969548a7667abddfb48ce
     m_Address: 1202_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57b1e3420d597ef43bd8a33c0010669c
+    m_Address: 5005_Secretary_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -687,6 +837,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d7062c587715bc42af87802f095781b
     m_Address: 51210_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e042f503aca35e4cbfcf943ee3df7d6
+    m_Address: 5005_Secretary_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -830,8 +985,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f840a2d6a226d64e8294cfaacbf55ed
+    m_Address: 6003_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6fcd16b16ac66ae4da187a3a318f2b94
     m_Address: 1308_Avator_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 700cfdd9d5e55f64c9d9a4216fe827e6
+    m_Address: 5006_Secretary_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -880,6 +1045,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 761662841e433c940b48e9366aef3f42
+    m_Address: 5004_Secretary_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 764451e74f59d54458de19919f1b89f8
+    m_Address: 5003_Secretary_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7704e8e96b3dd9447b482941362cb324
     m_Address: 13102_Avator_lv1_SkeletonData
     m_ReadOnly: 0
@@ -905,6 +1080,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7abe60e5efbe9f64d858725a9ee9643f
+    m_Address: 1404_Avator_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7b39953a7608d9b4aa12c7ccc9f4e261
     m_Address: 1305_Chess_s01_SkeletonData
     m_ReadOnly: 0
@@ -912,6 +1092,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bc61abc483b23b48b845f833c410b0d
     m_Address: 6005_Elf_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cab1ee765ffc114aaaf4cd4cfa19fbb
+    m_Address: 1105_Avator_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -955,8 +1140,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 810c7a2c7995a6d43bd08fef9b4fadcc
+    m_Address: 851204_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 81dd0ecb372806244bc98d8aa17346f3
     m_Address: 1113_Avator_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 821deef31a6571b4c921394c9bc8eccf
+    m_Address: 3004_MiniGame_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1045,6 +1240,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e271556060383f45a529a941a39bc89
+    m_Address: 6007_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8e3d57dfab750df478e0eb0d685ae44d
     m_Address: 1311_Avator_lv1_SkeletonData
     m_ReadOnly: 0
@@ -1085,6 +1285,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91e89685255ff6347a07e7a8fb2858d3
+    m_Address: 6006_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 931cfa356e7f07945a9ff0c9bfb9d85f
     m_Address: 1401_Chess_SkeletonData
     m_ReadOnly: 0
@@ -1100,6 +1305,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 951f298bc2b83074ca719e3931a02507
+    m_Address: 6013_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 958b664ea1eb8294fb6508abc3a18b59
     m_Address: 1313_Chess_s01_SkeletonData
     m_ReadOnly: 0
@@ -1107,6 +1317,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95b1a1c5fc6349d4d8bd17dde57cab7a
     m_Address: 1407_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 962ff28fd44bb0146b21642041378a58
+    m_Address: 1217_Avator_lv1_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1125,8 +1340,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a7d7221764f4144aa1d978bb92833ee
+    m_Address: 6002_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9ac0c256fc367cc48a907a8e4a9b0385
     m_Address: 1101_Chess_s01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b1a4b24e08c1b74a9c475b2b3ef3285
+    m_Address: 6017_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1180,6 +1405,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a14a61061e8daca4faf25e7726ca8fc1
+    m_Address: 5007_Secretary_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a188c047488d0b94e9c065bc9580946a
     m_Address: 1304_Chess_s02_SkeletonData
     m_ReadOnly: 0
@@ -1222,6 +1452,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a730f90fc616dbc46a696af5c803446c
     m_Address: 51208_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a738d2739b5f5d648a82a89ee94c5c3c
+    m_Address: 6005_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1400,6 +1635,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bacc6ade0947c8b42b1bcec9050d448d
+    m_Address: 5009_Secretary_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bb3a881578dad424b86b63767fd0f04f
     m_Address: 1207_Chess_SkeletonData
     m_ReadOnly: 0
@@ -1460,6 +1700,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1caeca282263a54e990546e8e7b27f2
+    m_Address: 6015_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1fae10f6976bde42b4c50dcea88aadc
+    m_Address: 6019_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c209818bc4828cc42838c2c964fe3001
     m_Address: 8001_Avator_lv1_SkeletonData
     m_ReadOnly: 0
@@ -1467,6 +1717,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c4b01cde04ee62d41b99f5a149c9072d
     m_Address: 2004_Avator_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c52ae75bc2473f64da3e7b0dc4e61744
+    m_Address: 2001_God_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1517,6 +1772,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c97d3b7f8596a3748b47c38a99d40ed2
     m_Address: 1109_Chess_s02_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7257747853f514f8343a1f8581ecd6
+    m_Address: 5004_Secretary_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1620,6 +1880,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d47e46079e7da074ebe9386d6c532a6c
+    m_Address: 5010_Secretary_lv2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d49d030477f8ef04cb0340f120782c8f
+    m_Address: 851102_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d50ab14500706344fb56cd61f7d28ed0
     m_Address: 1303_Chess_s02_SkeletonData
     m_ReadOnly: 0
@@ -1652,6 +1922,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8bf8d66fc8c38842a5f1380c8ee9409
     m_Address: 1419_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8dcb6fa5ba1a8647954bb1048747e95
+    m_Address: 5009_Secretary_lv2_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1690,6 +1965,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02135ac46b5d844990aa0544314b463
+    m_Address: 6023_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0e1e01434de82d4a81c7be9d703e8c3
     m_Address: 1309_Avator_lv1_SkeletonData
     m_ReadOnly: 0
@@ -1710,6 +1990,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e30aaf064b9697846bc7cef504435dd9
+    m_Address: 3003_MiniGame_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e4288f56df2944e4a97b4787a8b7167d
     m_Address: 1409_Chess_SkeletonData
     m_ReadOnly: 0
@@ -1717,6 +2002,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e484476511848e34e80ad2d905e37c20
     m_Address: 1304_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4be4ebdb8cff8946875b8b52b1bae2b
+    m_Address: 3001_MiniGame_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1790,6 +2080,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec5410485a7d80848b36ff7fa90d8c6d
+    m_Address: 6014_Elf_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec7fe56ffacbbaa46943eeba48625637
     m_Address: 1311_Chess_SkeletonData
     m_ReadOnly: 0
@@ -1807,6 +2102,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f231d3f19f3afc242a2db165ac922318
     m_Address: 1417_Avator_lv1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3454e342db87ac4caee10e7214679c3
+    m_Address: 6004_Elf_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1835,6 +2135,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f539f4347db241e45ab0f0e591b4ee4a
+    m_Address: 2003_God_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f60976e935491ff49aae3123b4177a82
     m_Address: 1209_Chess_s01_SkeletonData
     m_ReadOnly: 0
@@ -1860,8 +2165,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7bd0013acb7a6942ada1e0d57fbcbaf
+    m_Address: 5001_Secretary_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8d68f50c27a06f44b341f19bf0f6ef4
     m_Address: 1316_Chess_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa251dea272aa6f44a31579202c6e501
+    m_Address: 3002_MiniGame_SkeletonData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

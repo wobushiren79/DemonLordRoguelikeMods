@@ -68,9 +68,8 @@ public partial class SpineEditorWindow
         foreach (string guid in guids)
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);
-            Object asset = AssetDatabase.LoadAssetAtPath<Object>(path);
 
-            if (asset != null)
+            if (!string.IsNullOrEmpty(path))
             {
                 bool isAddressable = false;
                 string currentGroupName = "无";
@@ -89,8 +88,7 @@ public partial class SpineEditorWindow
                 {
                     guid = guid,
                     path = path,
-                    name = asset.name,
-                    asset = asset,
+                    name = Path.GetFileNameWithoutExtension(path),
                     isAddressable = isAddressable,
                     currentGroupName = currentGroupName
                 });

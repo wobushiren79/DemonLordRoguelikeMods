@@ -39,6 +39,15 @@ public partial class SpineEditorWindow : EditorWindow
     private GUIStyle tabStyle;
     private GUIStyle tabActiveStyle;
     private GUIStyle subHeaderStyle;
+    private GUIStyle subtitleStyle;
+    private GUIStyle oddRowStyle;
+    private GUIStyle dropStyle;
+    private GUIStyle dropHighlightStyle;
+    private GUIStyle statusBarStyle;
+    private Dictionary<MessageType, Texture2D> statusBarTextures = new Dictionary<MessageType, Texture2D>();
+    private Texture2D descBgTexture;
+    private Texture2D propBgTexture;
+    private Texture2D cardBgTexture;
     private bool stylesInitialized = false;
 
     #region 窗口生命周期
@@ -53,10 +62,28 @@ public partial class SpineEditorWindow : EditorWindow
 
     private void OnEnable()
     {
+        stylesInitialized = false;
         RefreshAddressableGroups();
         isLoaded = false;
         spineAssets.Clear();
         materialConfig = SpineMaterialConfig.Load();
+    }
+    
+    private void OnDisable()
+    {
+        // 清理缓存的纹理，避免内存泄漏
+        if (tabActiveStyle?.normal?.background != null) DestroyImmediate(tabActiveStyle.normal.background);
+        if (oddRowStyle?.normal?.background != null) DestroyImmediate(oddRowStyle.normal.background);
+        if (dropHighlightStyle?.normal?.background != null) DestroyImmediate(dropHighlightStyle.normal.background);
+        if (descBgTexture != null) DestroyImmediate(descBgTexture);
+        if (propBgTexture != null) DestroyImmediate(propBgTexture);
+        if (cardBgTexture != null) DestroyImmediate(cardBgTexture);
+        
+        foreach (var tex in statusBarTextures.Values)
+        {
+            if (tex != null) DestroyImmediate(tex);
+        }
+        statusBarTextures.Clear();
     }
 
     #endregion
@@ -121,30 +148,62 @@ public partial class SpineEditorWindow : EditorWindow
             fontStyle = FontStyle.Bold
         };
 
-        // Tab样式
-        tabStyle = new GUIStyle(EditorStyles.toolbarButton)
+        // Tab样式 - 使用 "Button" 样式替代 toolbarButton，避免文本渲染问题
+        tabStyle = new GUIStyle("Button")
         {
             fontSize = 13,
             fontStyle = FontStyle.Normal,
             alignment = TextAnchor.MiddleCenter,
-            padding = new RectOffset(15, 15, 12, 12),
-            normal = { textColor = EditorStyles.label.normal.textColor }
+            padding = new RectOffset(15, 15, 12, 12)
         };
 
-        // Tab激活样式
+        // Tab激活样式 - 使用独立的 normal 状态，避免与 tabStyle 共享引用
         tabActiveStyle = new GUIStyle(tabStyle)
         {
             fontStyle = FontStyle.Bold,
             fontSize = 14
         };
-        tabActiveStyle.normal.background = MakeTexture(2, 2, new Color(0.2f, 0.5f, 0.9f, 0.8f));
-        tabActiveStyle.normal.textColor = Color.white;
+        tabActiveStyle.normal = new GUIStyleState
+        {
+            background = MakeTexture(2, 2, new Color(0.2f, 0.5f, 0.9f, 0.8f)),
+            textColor = Color.white
+        };
 
         // 盒子样式
         boxStyle = new GUIStyle(EditorStyles.helpBox)
         {
             padding = new RectOffset(10, 10, 10, 10)
         };
+
+        // 缓存常用样式和纹理，避免每帧重复创建造成 GC 压力和内存泄漏
+        subtitleStyle = new GUIStyle(EditorStyles.centeredGreyMiniLabel)
+        {
+            fontSize = 10
+        };
+
+        oddRowStyle = new GUIStyle(GUIStyle.none)
+        {
+            normal = new GUIStyleState { background = MakeTexture(2, 2, new Color(0.9f, 0.9f, 0.9f, 0.1f)) }
+        };
+
+        dropStyle = new GUIStyle(EditorStyles.helpBox)
+        {
+            alignment = TextAnchor.MiddleCenter,
+            fontSize = 10
+        };
+
+        dropHighlightStyle = new GUIStyle(dropStyle);
+        dropHighlightStyle.normal.background = MakeTexture(2, 2, new Color(0.3f, 0.6f, 0.9f, 0.3f));
+
+        statusBarStyle = new GUIStyle(EditorStyles.miniLabel)
+        {
+            padding = new RectOffset(10, 10, 8, 8)
+        };
+
+        // Material 页面背景纹理缓存
+        descBgTexture = MakeTexture(2, 2, new Color(0.15f, 0.25f, 0.4f, 0.1f));
+        propBgTexture = MakeTexture(2, 2, new Color(0.1f, 0.1f, 0.1f, 0.05f));
+        cardBgTexture = MakeTexture(2, 2, new Color(0.95f, 0.95f, 0.95f, 0.1f));
 
         stylesInitialized = true;
     }
@@ -155,10 +214,6 @@ public partial class SpineEditorWindow : EditorWindow
         
         EditorGUILayout.LabelField("Spine 资源管理器", titleStyle);
         
-        GUIStyle subtitleStyle = new GUIStyle(EditorStyles.centeredGreyMiniLabel)
-        {
-            fontSize = 10
-        };
         EditorGUILayout.LabelField("管理 Spine Addressable 资源与材质球设置", subtitleStyle);
         
         EditorGUILayout.EndVertical();
@@ -224,14 +279,16 @@ public partial class SpineEditorWindow : EditorWindow
                 break;
         }
         
-        EditorGUILayout.BeginVertical(new GUIStyle 
-        { 
-            normal = new GUIStyleState { background = MakeTexture(2, 2, bgColor) },
-            padding = new RectOffset(10, 10, 8, 8)
-        });
+        // 复用缓存的纹理，避免每帧创建新的 Texture2D
+        if (!statusBarTextures.TryGetValue(statusType, out var bgTexture))
+        {
+            bgTexture = MakeTexture(2, 2, bgColor);
+            statusBarTextures[statusType] = bgTexture;
+        }
+        statusBarStyle.normal.background = bgTexture;
         
+        EditorGUILayout.BeginVertical(statusBarStyle);
         EditorGUILayout.LabelField(statusMessage, EditorStyles.miniLabel);
-        
         EditorGUILayout.EndVertical();
     }
 
@@ -262,7 +319,7 @@ public partial class SpineEditorWindow : EditorWindow
     {
         if (spineAssets.Count > 0)
         {
-            var objects = spineAssets.Select(a => a.asset).Where(o => o != null).ToArray();
+            var objects = spineAssets.Select(a => a.GetAsset()).Where(o => o != null).ToArray();
             Selection.objects = objects;
             SetStatus($"已选中 {objects.Length} 个资源", MessageType.Info);
         }
@@ -312,21 +369,12 @@ public partial class SpineEditorWindow : EditorWindow
         // 拖拽区域
         Rect dropRect = EditorGUILayout.GetControlRect(false, 26);
         
-        GUIStyle dropStyle = new GUIStyle(EditorStyles.helpBox)
-        {
-            alignment = TextAnchor.MiddleCenter,
-            fontSize = 10
-        };
-        
         Event evt = Event.current;
         bool isDragTarget = dropRect.Contains(evt.mousePosition);
         
-        if (isDragTarget && DragAndDrop.objectReferences.Length > 0)
-        {
-            dropStyle.normal.background = MakeTexture(2, 2, new Color(0.3f, 0.6f, 0.9f, 0.3f));
-        }
+        GUIStyle currentDropStyle = (isDragTarget && DragAndDrop.objectReferences.Length > 0) ? dropHighlightStyle : dropStyle;
         
-        GUI.Box(dropRect, "📁 拖拽文件夹到这里", dropStyle);
+        GUI.Box(dropRect, "📁 拖拽文件夹到这里", currentDropStyle);
         
         switch (evt.type)
         {
@@ -410,9 +458,19 @@ public partial class SpineEditorWindow : EditorWindow
         public string guid;
         public string path;
         public string name;
-        public Object asset;
         public bool isAddressable;
         public string currentGroupName;
+        
+        private Object _cachedAsset;
+        
+        public Object GetAsset()
+        {
+            if (_cachedAsset == null && !string.IsNullOrEmpty(path))
+            {
+                _cachedAsset = AssetDatabase.LoadAssetAtPath<Object>(path);
+            }
+            return _cachedAsset;
+        }
     }
 
     #endregion

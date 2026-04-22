@@ -11,7 +11,7 @@ public partial class SpineEditorWindow
         
         // ========== 说明区域 ==========
         EditorGUILayout.BeginVertical(new GUIStyle { 
-            normal = new GUIStyleState { background = MakeTexture(2, 2, new Color(0.15f, 0.25f, 0.4f, 0.1f)) },
+            normal = new GUIStyleState { background = descBgTexture },
             padding = new RectOffset(10, 10, 10, 10)
         });
         
@@ -86,7 +86,7 @@ public partial class SpineEditorWindow
         // 卡片背景
         EditorGUILayout.BeginVertical(new GUIStyle
         {
-            normal = new GUIStyleState { background = MakeTexture(2, 2, new Color(0.95f, 0.95f, 0.95f, 0.1f)) },
+            normal = new GUIStyleState { background = cardBgTexture },
             border = new RectOffset(1, 1, 1, 1),
             padding = new RectOffset(12, 12, 10, 10)
         });
@@ -126,7 +126,7 @@ public partial class SpineEditorWindow
         // 属性设置
         EditorGUILayout.BeginVertical(new GUIStyle 
         { 
-            normal = new GUIStyleState { background = MakeTexture(2, 2, new Color(0.1f, 0.1f, 0.1f, 0.05f)) },
+            normal = new GUIStyleState { background = propBgTexture },
             padding = new RectOffset(8, 8, 6, 6)
         });
         

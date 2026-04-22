@@ -15,6 +15,7 @@ public class SpineMaterialPostprocessor : AssetPostprocessor
         string[] movedAssets,
         string[] movedFromAssetPaths)
     {
+        return;
         // 加载配置
         var config = SpineMaterialConfig.Load();
         if (config == null || config.directoryConfigs.Count == 0)

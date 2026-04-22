@@ -127,13 +127,17 @@ public partial class SpineEditorWindow
                 var asset = spineAssets[i];
                 bool isEven = i % 2 == 0;
                 
-                EditorGUILayout.BeginHorizontal(isEven ? GUIStyle.none : new GUIStyle { normal = new GUIStyleState { background = MakeTexture(2, 2, new Color(0.9f, 0.9f, 0.9f, 0.1f)) } });
+                EditorGUILayout.BeginHorizontal(isEven ? GUIStyle.none : oddRowStyle);
                 
                 // 名称
                 if (GUILayout.Button(asset.name, EditorStyles.label, GUILayout.Width(140)))
                 {
-                    EditorGUIUtility.PingObject(asset.asset);
-                    Selection.activeObject = asset.asset;
+                    var obj = asset.GetAsset();
+                    if (obj != null)
+                    {
+                        EditorGUIUtility.PingObject(obj);
+                        Selection.activeObject = obj;
+                    }
                 }
                 
                 // 路径
