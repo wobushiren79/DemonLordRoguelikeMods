@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Mod_Spine
+  m_Name: Mod_OtherSpine
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
-  m_GroupName: Mod_Spine
+  m_GroupName: Mod_OtherSpine
   m_GUID: 6ff3027acb5f997458ca33f70e46f321
   m_SerializeEntries:
   - m_GUID: 008c5e103f20d6e4583f16ebcc08274b
@@ -539,5 +539,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: a9ef589241f84694a984fd32db637e13, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: c69316ae092750b47a0bed606eeeb2ae, type: 2}
     - {fileID: 11400000, guid: e4b6920bdb73cce44a0531c4cb41ff4b, type: 2}
+    - {fileID: 11400000, guid: c69316ae092750b47a0bed606eeeb2ae, type: 2}
