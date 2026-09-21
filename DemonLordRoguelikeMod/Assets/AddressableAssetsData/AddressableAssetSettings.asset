@@ -108,6 +108,22 @@ MonoBehaviour:
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: b9f53d663bb2e44489bd353f02f40f10
         m_Value: Mods/Spine
+    - m_InheritedParent: 
+      m_Id: 909083c28fd16d14386d7febf52347b3
+      m_ProfileName: AeonsEchoSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/AeonsEchoSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/AeonsEchoSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/AeonsEchoSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/AeonsEchoSpine
     m_ProfileEntryNames:
     - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
       m_Name: Local.BuildPath
@@ -143,4 +159,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9710d382c0b63e44ab56ff91bff3fe61, type: 2}
   - {fileID: 11400000, guid: 1cef7d6a31168504397e56cebf7e3527, type: 2}
   - {fileID: 11400000, guid: 6e67e1017ed070f44b504cd213e889ef, type: 2}
-  m_ActiveProfileId: 0f45c77bfa2dfa543bdf2cf74381175a
+  m_ActiveProfileId: 909083c28fd16d14386d7febf52347b3

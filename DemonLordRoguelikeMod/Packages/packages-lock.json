@@ -1,14 +1,14 @@
 {
   "dependencies": {
     "com.esotericsoftware.spine.spine-csharp": {
-      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.2",
+      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.3",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5f1e3ac2f45266e620c41fdc80a2bac3a58b4667"
+      "hash": "6cbd93df540102197f791879ff8c8a26dc034f7b"
     },
     "com.esotericsoftware.spine.spine-unity": {
-      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.2",
+      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.3",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -16,18 +16,25 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.physics2d": "1.0.0",
-        "com.esotericsoftware.spine.spine-csharp": "4.2.0"
+        "com.esotericsoftware.spine.spine-csharp": "4.3.36",
+        "com.unity.2d.sprite": "1.0.0"
       },
-      "hash": "5f1e3ac2f45266e620c41fdc80a2bac3a58b4667"
+      "hash": "6cbd93df540102197f791879ff8c8a26dc034f7b"
     },
     "com.esotericsoftware.spine.urp-shaders": {
-      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Modules/com.esotericsoftware.spine.urp-shaders#4.2",
+      "version": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Modules/com.esotericsoftware.spine.urp-shaders#4.3",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.render-pipelines.universal": "7.1.5"
       },
-      "hash": "5f1e3ac2f45266e620c41fdc80a2bac3a58b4667"
+      "hash": "6cbd93df540102197f791879ff8c8a26dc034f7b"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.addressables": {
       "version": "2.9.1",

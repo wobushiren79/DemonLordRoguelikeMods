@@ -23,3 +23,9 @@ MonoBehaviour:
     enableStraightAlpha: 1
   - folderPath: Assets/ModResource/Spine/PutGirl
     enableStraightAlpha: 1
+  - folderPath: Assets/ModResource/Spine/StarLusts
+    enableStraightAlpha: 1
+  - folderPath: Assets/ModResource/Spine/Snowbreak
+    enableStraightAlpha: 1
+  - folderPath: Assets/ModResource/Spine/CherryTale
+    enableStraightAlpha: 1

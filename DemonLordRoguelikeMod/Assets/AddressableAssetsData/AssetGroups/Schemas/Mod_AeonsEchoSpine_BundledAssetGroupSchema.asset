@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
-  m_Name: Mod_AeonsEcho_BundledAssetGroupSchema
+  m_Name: Mod_AeonsEchoSpine_BundledAssetGroupSchema
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
   m_Group: {fileID: 11400000, guid: 05942fd37c0588145a0e37b26340af8f, type: 2}
   m_InternalBundleIdMode: 1
@@ -38,7 +38,7 @@ MonoBehaviour:
     m_Id: 07681f81ce6bdcb41a65fb3257f418e8
   m_LoadPath:
     m_Id: b9f53d663bb2e44489bd353f02f40f10
-  m_BundleMode: 0
+  m_BundleMode: 1
   m_AssetBundleProviderType:
     m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
