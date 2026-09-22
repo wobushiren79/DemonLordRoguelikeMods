@@ -30,6 +30,8 @@ public static class AeonsEchoSpineModBuilder
     public const string SourceFolder = "Assets/ModResource/Spine/AeonsEcho";
     /// <summary>Chess 系 SkeletonData 统一缩放（默认导入 0.01 × 0.2 = 非 ui_show_spine 显示大小 ×1/5）</summary>
     public const float ChessSkeletonDataScale = 0.002f;
+    /// <summary>ui_show 系（Avator/Secretary/Elf/AVG 目录）SkeletonData 缩放（保持导入默认 0.01；详情UI尺寸由道具 other_data 的 ui_show_data 键控制）</summary>
+    public const float UIShowSkeletonDataScale = 0.01f;
 
     /// <summary>构建输出目录（项目根相对路径）</summary>
     private static string OutputDir => $"Mods/{ModName}";
@@ -54,7 +56,7 @@ public static class AeonsEchoSpineModBuilder
         EnsureGroupSchema(settings, group);
         int entryCount = SyncGroupEntries(settings, group);
 
-        // 2.Chess 系 SkeletonData 缩放（非 ui_show_spine 显示大小 ×1/5，Avator 不动）
+        // 2.SkeletonData 缩放校准（Chess 系=非 ui_show_spine 显示 ×1/5；ui_show 系 Avator/Secretary/Elf/AVG 复位 0.01）
         int scaleCount = ApplyChessSkeletonDataScale();
 
         // 3.隔离构建（临时排除其他分组，构建后恢复）
@@ -217,8 +219,9 @@ public static class AeonsEchoSpineModBuilder
     }
 
     /// <summary>
-    /// 把 AeonsEcho 下全部 Chess 系（非 Avator）SkeletonDataAsset.scale 统一设为 ChessSkeletonDataScale。
-    /// 幂等可重跑；Avator（ui_show_spine）不动——详情UI尺寸由道具 other_data 的 ui_show_data 键控制。
+    /// 把 AeonsEcho 下 SkeletonDataAsset.scale 按目录类型统一校准：Chess 系=ChessSkeletonDataScale（非 ui_show_spine 显示 ×1/5），
+    /// ui_show 系（Avator/Secretary/Elf/AVG 目录）=UIShowSkeletonDataScale（详情UI尺寸由道具 other_data 的 ui_show_data 键控制）。
+    /// 幂等可重跑；ui_show 系主动复位——历史构建曾把 Secretary/Elf 误设为 Chess 缩放，需校准回 0.01。
     /// </summary>
     /// <returns>本次实际修改的资产数</returns>
     private static int ApplyChessSkeletonDataScale()
@@ -228,15 +231,16 @@ public static class AeonsEchoSpineModBuilder
         foreach (var guid in guids)
         {
             string assetPath = AssetDatabase.GUIDToAssetPath(guid);
-            //ui_show_spine（Avator 目录）不动：详情UI尺寸由道具 other_data 的 ui_show_data 键控制
-            if (assetPath.Contains("/Avator"))
-                continue;
+            //ui_show_spine（Avator/Secretary/Elf/AVG 目录）：详情UI尺寸由道具 other_data 的 ui_show_data 键控制，保持导入默认缩放
+            bool isUIShow = assetPath.Contains("/Avator") || assetPath.Contains("/Secretary")
+                || assetPath.Contains("/Elf") || assetPath.Contains("/AVG");
+            float targetScale = isUIShow ? UIShowSkeletonDataScale : ChessSkeletonDataScale;
             var skeletonDataAsset = AssetDatabase.LoadAssetAtPath<SkeletonDataAsset>(assetPath);
             if (skeletonDataAsset == null)
                 continue;
-            if (!Mathf.Approximately(skeletonDataAsset.scale, ChessSkeletonDataScale))
+            if (!Mathf.Approximately(skeletonDataAsset.scale, targetScale))
             {
-                skeletonDataAsset.scale = ChessSkeletonDataScale;
+                skeletonDataAsset.scale = targetScale;
                 EditorUtility.SetDirty(skeletonDataAsset);
                 count++;
             }
