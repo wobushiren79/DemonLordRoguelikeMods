@@ -3,7 +3,7 @@
 
 set -e
 REMOTE="origin"
-BRANCH="master"
+BRANCH="main"
 MAX_RETRIES=50
 SLEEP_SEC=5
 
