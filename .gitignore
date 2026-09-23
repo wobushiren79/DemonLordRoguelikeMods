@@ -37,3 +37,12 @@ sysinfo.txt
 *.apk
 *.unitypackage
 ThaumAge/Assets/Texture/BlockTextureArray/
+
+# ============================================================
+# Mod 资源（Spine 图集等，约 25 GB）——不进 git，改由 Release 附件分发
+#   仓库: https://github.com/wobushiren79/DemonLordRoguelikeMod-Assets
+#   还原: 下载 release 里的 zip / 分卷，用 restore_all.bat 解压到本目录
+#   注意: 本地文件必须保留，主工程「工具/Mod/<名>spine/一键构建」要用
+#   注意: 此规则对已提交文件无效，需配合历史重写（filter-repo）才生效
+# ============================================================
+DemonLordRoguelikeMod/Assets/ModResource/
