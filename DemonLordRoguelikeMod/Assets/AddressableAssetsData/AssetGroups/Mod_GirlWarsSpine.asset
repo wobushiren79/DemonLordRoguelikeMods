@@ -1,0 +1,768 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Mod_GirlWarsSpine
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Mod_GirlWarsSpine
+  m_GUID: 19d2734fdbbba5b488e232fc23d2380f
+  m_SerializeEntries:
+  - m_GUID: 0102cf5c59b303d4cb79cb2565c17c5d
+    m_Address: Painting_21080_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0134e6cd3c4f8d84eb7e441afa27350a
+    m_Address: Painting_1099_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0322b6313ea74ef4681c5a77d72406cf
+    m_Address: Painting_1021_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04e15b16d6a1e2c48a47f91287d9f2d1
+    m_Address: Painting_1062_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04f4e0559a7d6ba4f9e06a548b32c38c
+    m_Address: painting_1043_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 072b71bb8a9a9714885dbaccfff150a1
+    m_Address: Painting_1027_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07e7298be56c6944e92d7cc943cc66fe
+    m_Address: Painting_21058_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0850190de654146488f17e5f916ad878
+    m_Address: Painting_1033_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08667458035eb4b489dc0994a0b160f7
+    m_Address: Painting_31113_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 097560306c7563c419125165e3588687
+    m_Address: Painting_1031_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09de370e5d8264149bc3ca3e4762b580
+    m_Address: Painting_21012_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b3f71d260bfc0a4b87922d5eee56865
+    m_Address: Painting_31114_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1014d354454205742b8d087c1fe347d2
+    m_Address: Painting_1060_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1023d01ff99a784468e42e6398412fda
+    m_Address: Painting_21015_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10ecab5b304992f49af82ce6167f9eb8
+    m_Address: Painting_1029_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a6133047020f14285a839c129f3f25
+    m_Address: Painting_1001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11ca3d6ae806426418bff0ee99e6776f
+    m_Address: Painting_1008_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16f01c93f2a90d24e931832511dbb513
+    m_Address: Painting_21081_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 187b104486f3f9c44a331bcaf182e3fd
+    m_Address: Painting_21049_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18a74be09faa3554486bf995ad340508
+    m_Address: Painting_31110_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19cceb88eaf28244aa4d5537d75da783
+    m_Address: Painting_31109_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24ef71dc4bbad8c408452fbba3d8d12a
+    m_Address: Painting_81008_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 255d6639b7cfb9e4eac49f4edededda0
+    m_Address: Painting_21085_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25fcb24f6b39a194b93c0daaf91ddbf9
+    m_Address: painting_1017_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 271725e21f046a247a7446e8eb690cf1
+    m_Address: Painting_1057_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ae81c7fad42f544ade2ed7590a5aea
+    m_Address: Painting_31112_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2920ead591d633142adcc4df8aa251c4
+    m_Address: Painting_1028_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29690f340160e774e9900ac483aa23d4
+    m_Address: Painting_82011_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a429220a42b3bd4e886a666ba95a29c
+    m_Address: Painting_21075_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a6ae08c76f00554f9676dbee9752a81
+    m_Address: painting_1045_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ea54feb932e2d9479606b479af6cabe
+    m_Address: painting_21044_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ed1b3b3ab320e94c86299527a48d571
+    m_Address: Painting_1058_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3401b54f0bbc5bd41bb444224ccf87ed
+    m_Address: Painting_1044_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367f1ca0551bdf54ea3075b2b16261c2
+    m_Address: Painting_1035_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3857d34f56d15fd4bacfdca6d6914a88
+    m_Address: Painting_31012_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bce831345573e4499a9d4a1abf8ea5c
+    m_Address: Painting_1053_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cf552788a792b84faa1a38d917e66f2
+    m_Address: Painting_92003_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eac74b605b4c75459a7d3e459aaaa16
+    m_Address: Painting_21025_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fc0f5c04fb60314dac2e6d635f633a8
+    m_Address: Painting_91001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40224bef32b61394e86fe80ad68110df
+    m_Address: Painting_21073_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40c7bbb417e2ceb43926b8743808a0a3
+    m_Address: Painting_82004_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42458e5b20b55654a815ee37ed125488
+    m_Address: Painting_21104_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4356c0747358f014384afb1e789eb999
+    m_Address: Painting_1025_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 457c464505233c0408e42c684dc77fc2
+    m_Address: Painting_81012_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45d323c8654898c4b8feb505ed8fba30
+    m_Address: Painting_1007_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b22eb4cf1da082409f7b7b1ecf915bc
+    m_Address: Painting_1098_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f0a95edf33191443a402995896789bd
+    m_Address: Painting_82010_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ff0185f54215be47afac5689c3d1a2d
+    m_Address: Painting_1067_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 516fa87ef67aba547bab2064f971c0c6
+    m_Address: Painting_92001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51f4de69d3fcaed46910797d6d669f73
+    m_Address: painting_1038_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54f267c3a1e7a384e8d252f9c7258d5d
+    m_Address: Painting_82003_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55888bdd7d9dce545a2ff3cf87a6c4a6
+    m_Address: Painting_21043_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55bf674c72a13e44ca596fc275bc1193
+    m_Address: painting_1056_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56783ad9a0e64f14aabc3df8171a136b
+    m_Address: Painting_1048_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5700149c0e845f646b3cabc3c673ea01
+    m_Address: Painting_92004_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b3fab88b530c8b458059a9f379c3304
+    m_Address: Painting_31103_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f4f75eb2faaa0849b4a45e910bb4353
+    m_Address: Painting_1041_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 602d9909fddb92141a4d2749c991e24b
+    m_Address: Painting_1052_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61d8cd2e0a8476a4d91a12f696a29abe
+    m_Address: Painting_21078_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6203bbf8b6fc8e645818136767b3fb6c
+    m_Address: Painting_1034_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 626a6ac77719c2649a28764728526af5
+    m_Address: Painting_80001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 633da97c49db8824f9a870a0e25b18f7
+    m_Address: Painting_82009_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 642e9d7d6b14c7d4789f2071f5f2ae44
+    m_Address: Painting_1009_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692096adff249844bb151ae9bd074a3a
+    m_Address: Painting_31041_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e3aaa0c4b2ae144ab07c973cefcd8ab
+    m_Address: Painting_31070_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f7a4e7c6bab3da48b2d21896d80ecc5
+    m_Address: painting_21077_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70dc7b55eeeeb7145b9e5e7b9bcb5747
+    m_Address: Painting_1003_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73c497b2669984643a2dbad970406992
+    m_Address: Painting_21089_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ad3aec0e809ca49b2cf33ce23f443a
+    m_Address: Painting_1016_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7636c302f3847f045a5a412493c72cde
+    m_Address: Painting_21070_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c0026d80c7ebcb4d82245a3956995e2
+    m_Address: Painting_92005_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c275667e226a444d862ada33441f81c
+    m_Address: Painting_31073_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c88ecdc6cbef9240af5c2b73252a924
+    m_Address: Painting_31111_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 810305691798f7d4d8f027afd0bdee05
+    m_Address: Painting_1005_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 812a0e8fb7c418f4f8f935239d8932c8
+    m_Address: Painting_91002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 829d2d60d3ef62048959be15603fe7b8
+    m_Address: Painting_1061_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85107ace5ab93f7458e62a3d2f9a1bba
+    m_Address: Painting_31115_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86a2d0a3aebdd344b818f96fe7fc03bc
+    m_Address: Painting_1032_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87cf696b588916548bb00259e63b9781
+    m_Address: Painting_1018_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8857f9ab5b3768b4085ae874f7ca7031
+    m_Address: Painting_1063_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 890f2a6556f024949936ace43fdd44ae
+    m_Address: Painting_31120_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8987dfd7cd4bc2146835da2d78c93986
+    m_Address: Painting_31108_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a241cc6450086f418ebd15f09e42de7
+    m_Address: Painting_82002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cba2935fba7e8b4d9797d0ec94473cc
+    m_Address: Painting_21048_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dceb0259fc6a05448e8d8a9065ae1e1
+    m_Address: Painting_31079_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ee96eb60deb26c4591be42394497d0a
+    m_Address: Painting_1002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91da0fed514a56648ad05e445b35f308
+    m_Address: Painting_21086_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9506350498352554898ba73c8511c270
+    m_Address: Painting_1055_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96e4eec4e42f10d49b9d2ee6b196b442
+    m_Address: Painting_31118_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ef993dce3bef240905d2f6e18b713d
+    m_Address: Painting_82005_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 981cc5e0d83c4c74e8ea00686025b9bb
+    m_Address: Painting_31044_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98be20a1f7fe38c48b4186d6bd92e3e5
+    m_Address: Painting_1020_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9912c8105a3ef9940a0dc243a7be05fd
+    m_Address: Painting_82006_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b19e0e1d3cd1cc42a53947d9b3226b4
+    m_Address: Painting_31107_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c5f7631e32c2514fb247bbb6362ba20
+    m_Address: Painting_31116_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d4b193a55262944f9852eb627478f3e
+    m_Address: Painting_1023_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a718aec91aab3cf43ae668f65eaefb14
+    m_Address: painting_1040_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a71fae9eb252dce4db1ed82edd74cba3
+    m_Address: Painting_82001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a97223f88fe273245b4de4549cf0ded1
+    m_Address: Painting_31072_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa2af40e9dac4374098bb917d21fb2e7
+    m_Address: Painting_1065_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad2a6273ea064a34381ca7405849f551
+    m_Address: Painting_1050_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad9c2443c0d3c304c928da365f8c2c40
+    m_Address: Painting_21084_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae18abd5551099847a6c63d764523564
+    m_Address: Painting_31117_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b329f972e54a204428bb78b6f9410ec8
+    m_Address: Painting_1042_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b47ef6b432bc5d740a40195c4d9c050e
+    m_Address: Painting_21039_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b528598d80434754b892a15e823a30a0
+    m_Address: Painting_31119_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b848fb16ecf0ea1408f59f82411628ef
+    m_Address: painting_1047_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8876aa492b8c3444896bc7259330318
+    m_Address: Painting_81003_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8d0a059835c13847bda1919fb19308d
+    m_Address: Painting_1019_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba200474922af7e4aab7581a0b26a270
+    m_Address: Painting_81009_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf4c6353a047eb4aaa3c4dcce8ba6e7
+    m_Address: Painting_1024_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: becb5321b70d0b9498564343c70e1643
+    m_Address: Painting_21082_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf6eec717a3d69245bae98119e0166b8
+    m_Address: Painting_81010_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfba07eeac884c544923c08a2e5a5058
+    m_Address: Painting_1068_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0d1d6683bb73bb45b5b94d0cfd22fcf
+    m_Address: Painting_21090_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1babd5ca22fe584f998f8b7d18b1ba1
+    m_Address: Painting_1049_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c24ede5f6d4976849abbc0a31f62a590
+    m_Address: Painting_1004_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c55b0d0a6a274a444b78460698c6e15d
+    m_Address: Painting_82008_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5a178f59eda0e54a96bd9e20fdde49a
+    m_Address: Painting_81005_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c693964b26ca5a94c8f74c9bbff6aebd
+    m_Address: Painting_1006_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8f2c1d79a841394fb1e99899295feb3
+    m_Address: Painting_21076_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc96b75ce4ef50e4f8a43c6c57524865
+    m_Address: Painting_1059_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d334a28d2a6521349ad0c566fd82aef1
+    m_Address: Painting_81001_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4999e13ff326394da5a296b7b07a998
+    m_Address: Painting_1066_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d82d2c391e317534ba283222c0c83bb9
+    m_Address: Painting_82012_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dceb4423af2c5004782770b8f7109bc8
+    m_Address: Painting_21029_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dde4671ad08523c49b74cd7997eef285
+    m_Address: Painting_21087_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ded6ff22c4e3b4440af757c3b42ab9ee
+    m_Address: Painting_21101_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df4e21764e663b24e9c0eb840c17ee31
+    m_Address: Painting_81002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfaaefc8159db6d44bd5878cd16d166d
+    m_Address: painting_1039_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1be57fcea8dfe745aefc8a8ba43a92d
+    m_Address: Painting_1064_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e34f62107e23e7843b4ab54f51dc0c1d
+    m_Address: Painting_1036_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5a516819343c224abec803415666bde
+    m_Address: Painting_21083_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e74b30bd79f31db4ba854b4a35f5b691
+    m_Address: Painting_1030_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e774651bf8cf35e4ba261fe8f9f842da
+    m_Address: Painting_21041_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9e8d93c70f57844825d03c5adc0411
+    m_Address: Painting_31106_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebe169d0a78b7fe4880ebc7bc8782e63
+    m_Address: painting_1051_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eceb22a299d24384687b8c7adc87ef0d
+    m_Address: Painting_31025_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef29c0f83ed294b458171b31ec9319a2
+    m_Address: Painting_21079_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efba7aa12befbc042a449a2bf8620c41
+    m_Address: Painting_21088_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6da52d62323ac84da386d578110799e
+    m_Address: painting_21072_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f796cfd3b25dc414588cb517584f99e6
+    m_Address: Painting_92002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7e145776a3aeb84b9cd3dac13bdc46d
+    m_Address: painting_1046_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9680ef7589625441b4b8120d34c9b8e
+    m_Address: Painting_81011_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa491ecb86d1e174588a4a3014791204
+    m_Address: Painting_31015_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb0f245a9102e4c4787b686f2d272cb6
+    m_Address: Painting_81004_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd23f88e538b4f64396a57b3c7283e44
+    m_Address: Painting_31105_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe1963f7f3b74d44dad336685643a701
+    m_Address: Painting_21074_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe9e9f7bbfc7b9a4e936edecceea27ab
+    m_Address: Painting_1026_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a9ef589241f84694a984fd32db637e13, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2b45d202fe9ebc0438007b76febb8c91, type: 2}
+    - {fileID: 11400000, guid: b85c66629a8e34048ab4645e7713387b, type: 2}

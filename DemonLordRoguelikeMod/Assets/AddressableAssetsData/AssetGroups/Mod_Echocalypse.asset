@@ -1950,11 +1950,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aa38ee3556621e14bb1cbcf747e29e17
-    m_Address: 200000_bg_SkeletonData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa61622f68425a34cb95f9d4944e8c36
     m_Address: 70062001_bg_SkeletonData
     m_ReadOnly: 0
