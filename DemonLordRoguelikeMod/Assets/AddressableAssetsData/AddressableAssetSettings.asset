@@ -74,7 +74,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e055ceb450bf7194fafe60ecb5fa3f2a, type: 2}
   - {fileID: 11400000, guid: a2e44f494a4a0424e84d5248b4fe916e, type: 2}
   - {fileID: 11400000, guid: 4c7c29c5148a33948a1dcc8ce0683958, type: 2}
+  - {fileID: 11400000, guid: c197a17b66478fe419f425a9fe717651, type: 2}
   - {fileID: 11400000, guid: 05942fd37c0588145a0e37b26340af8f, type: 2}
+  - {fileID: 11400000, guid: 9e3cf66af558b354dadc15d3f2516f62, type: 2}
+  - {fileID: 11400000, guid: 457cd9932fda0164ea8b0413789ac247, type: 2}
+  - {fileID: 11400000, guid: 26ef07b33e4381949a3238e8e17c6684, type: 2}
+  - {fileID: 11400000, guid: eff4cb2f09bff174799d9caa18f22471, type: 2}
   - {fileID: 11400000, guid: 98120de86c341df4e8d59835e3d484b7, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -146,6 +151,22 @@ MonoBehaviour:
       - m_Id: b9f53d663bb2e44489bd353f02f40f10
         m_Value: Mods/BrownDustSpine
     - m_InheritedParent: 
+      m_Id: 08521c98b0aa0bb4fa2c7bbc5d48e258
+      m_ProfileName: EchocalypseSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/EchocalypseSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/EchocalypseSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/EchocalypseSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/EchocalypseSpine
+    - m_InheritedParent: 
       m_Id: 09b2a6f12a0017a458be361df760868a
       m_ProfileName: ArkReSpine
       m_Values:
@@ -178,6 +199,22 @@ MonoBehaviour:
       - m_Id: b9f53d663bb2e44489bd353f02f40f10
         m_Value: Mods/Spine
     - m_InheritedParent: 
+      m_Id: 31dec0c4ad56bf742bc45fc88c9199e0
+      m_ProfileName: StarLustsSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/StarLustsSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/StarLustsSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/StarLustsSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/StarLustsSpine
+    - m_InheritedParent: 
       m_Id: 389ef625fe2ccc64994acaf3505bde33
       m_ProfileName: PutGirlSpine
       m_Values:
@@ -193,6 +230,22 @@ MonoBehaviour:
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: b9f53d663bb2e44489bd353f02f40f10
         m_Value: Mods/PutGirlSpine
+    - m_InheritedParent: 
+      m_Id: 3baaf1a3fab5d74459c845d8d3ec7ba5
+      m_ProfileName: CherryTaleSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/CherryTaleSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/CherryTaleSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/CherryTaleSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/CherryTaleSpine
     - m_InheritedParent: 
       m_Id: 909083c28fd16d14386d7febf52347b3
       m_ProfileName: AeonsEchoSpine
@@ -225,6 +278,38 @@ MonoBehaviour:
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: b9f53d663bb2e44489bd353f02f40f10
         m_Value: Mods/NikkeSpine
+    - m_InheritedParent: 
+      m_Id: e7b293d8b41cc3d48a0c6b5ae899a59f
+      m_ProfileName: SnowbreakSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/SnowbreakSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/SnowbreakSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/SnowbreakSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/SnowbreakSpine
+    - m_InheritedParent: 
+      m_Id: f062fd85c1e0c6b48b5c4f6b32271718
+      m_ProfileName: CrossCoreSpine
+      m_Values:
+      - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
+        m_Value: Mods/CrossCoreSpine
+      - m_Id: 1fcad1716457bea4eb301c80909e492c
+        m_Value: Mods/CrossCoreSpine
+      - m_Id: 323dd11d335c3ad42a6eabe26a7d2cb9
+        m_Value: Mods/CrossCoreSpine
+      - m_Id: 4c9069214d9e15e4ea2976ad8eb005e2
+        m_Value: '[Project]'
+      - m_Id: af5a7a64a767dab49ac783138bc38a07
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b9f53d663bb2e44489bd353f02f40f10
+        m_Value: Mods/CrossCoreSpine
     m_ProfileEntryNames:
     - m_Id: 07681f81ce6bdcb41a65fb3257f418e8
       m_Name: Local.BuildPath
@@ -260,4 +345,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9710d382c0b63e44ab56ff91bff3fe61, type: 2}
   - {fileID: 11400000, guid: 1cef7d6a31168504397e56cebf7e3527, type: 2}
   - {fileID: 11400000, guid: 6e67e1017ed070f44b504cd213e889ef, type: 2}
-  m_ActiveProfileId: 389ef625fe2ccc64994acaf3505bde33
+  m_ActiveProfileId: 0582f4f1a23b7984ca17c551e0b41bb0
