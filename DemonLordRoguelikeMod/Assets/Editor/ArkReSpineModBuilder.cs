@@ -58,6 +58,12 @@ public static class ArkReSpineModBuilder
         int scaleCount = ApplyUIShowSkeletonDataScale();
 
         // 3.隔离构建（临时排除其他分组，构建后恢复）
+        // 0 条目=资源源目录异常：中止构建（不清理旧产物、不产出空包覆盖可用品）
+        if (entryCount == 0)
+        {
+            Debug.LogError($"[{ModName}] 分组同步后条目为 0（{SourceFolder} 下无 SkeletonData？），已中止构建");
+            return;
+        }
         var savedIncludeInBuild = DisableOtherGroups(settings, group);
         try
         {
@@ -200,6 +206,13 @@ public static class ArkReSpineModBuilder
     private static void EnsureGroupSchema(AddressableAssetSettings settings, AddressableAssetGroup group)
     {
         var schema = group.GetSchema<BundledAssetGroupSchema>();
+        // 本分组 IncludeInBuild=false 残留（上次构建中断）时自动恢复，防空构建静默成功
+        if (schema != null && !schema.IncludeInBuild)
+        {
+            schema.IncludeInBuild = true;
+            settings.SetDirty(AddressableAssetSettings.ModificationEvent.GroupSchemaModified, group, true, true);
+            Debug.LogWarning($"[{ModName}] 本分组 IncludeInBuild=false（疑上次构建中断残留），已自动恢复");
+        }
         if (schema != null && schema.BundleMode != BundledAssetGroupSchema.BundlePackingMode.PackSeparately)
         {
             schema.BundleMode = BundledAssetGroupSchema.BundlePackingMode.PackSeparately;
